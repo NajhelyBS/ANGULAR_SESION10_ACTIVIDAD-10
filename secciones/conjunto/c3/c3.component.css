@@ -1,0 +1,31 @@
+#c3 {
+    border: solid 1px #757f9ad0;
+    box-shadow: inset 0px 0px 10px 3px #757f9ad0;
+    
+}
+
+#c4 {
+    border: solid 1px #757f9ad0;
+    box-shadow: inset 0px 0px 10px 3px #757f9ad0;
+
+}
+.form-control {
+    width: 60%;
+}
+
+input:hover {
+    box-shadow: #a6120dc4 0px 0px 3px 1px;
+}
+
+textarea:hover {
+    box-shadow: #a6120dc4 0px 0px 3px 1px;
+}
+
+
+button {
+    font-weight: 600;
+}
+
+button:hover{
+    background-color:#a6120d;
+}

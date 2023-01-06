@@ -1,0 +1,17 @@
+nav {
+    background-image: linear-gradient(to top, #87898baf, #a9acadb4, #a7aaa9b9, #c2c3c2d7, #dddddbdc);
+    border: solid 1px #757f9ad0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 1px 1px #757f9ad0;
+    height: 70px;
+}
+
+img {
+    padding: 7px;
+    margin-left: 12px;
+}
+
+#tittle {
+    font-weight: 580;
+    font-size: large;
+}

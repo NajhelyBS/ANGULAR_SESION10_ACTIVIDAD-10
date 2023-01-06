@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-c4',
@@ -6,12 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./c4.component.css']
 })
 export class C4Component {
+  @Input()  Tarea:String = "";
+  @Input()  Description:String = "";
 
-  group1 = ["Tarea 1", "Tarea 2" , "Tarea 3"];
-  group2 = ["","",""];
+  tareas:String[] = [];
+  descripciones:String[] = [];
 
-  Tarea:String = "";
-  Description:String = "";
-
+  show = false;
   
+  printData(){
+    this.tareas.push(String(this.Tarea));
+    this.descripciones.push(String(this.Description));
+
+  }
 }

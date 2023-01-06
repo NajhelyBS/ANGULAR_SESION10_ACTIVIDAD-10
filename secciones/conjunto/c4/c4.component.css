@@ -1,0 +1,25 @@
+.form-control {
+    width: 50%;
+}
+
+#tarea {
+    margin-left: 0.5em;
+    cursor: pointer;
+    font-weight: 700;
+    border: solid 1px;
+    background-color: #a6120dc4;
+    border-radius: 10px;
+    color: white;
+}
+
+ul {
+    overflow: auto;
+}
+
+button {
+    font-weight: 600;
+}
+
+button:hover{
+    background-color:#a6120d;
+}
